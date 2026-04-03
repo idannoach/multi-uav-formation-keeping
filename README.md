@@ -147,6 +147,9 @@ Project_Root/
 ├── uav_environment.py         
 └── README.md
 ```
+
+---
+
 ### 9. Executing the System
 To validate geometries: 
 Run python test_formations.py to generate visual plots of the slot matrices in the results/formation_test_plots directory. This allows you to mathematically verify the shape configurations before spending time running the physics simulation.
