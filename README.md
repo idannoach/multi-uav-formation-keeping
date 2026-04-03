@@ -152,10 +152,10 @@ Project_Root/
 
 ### 9. Executing the System
 To validate geometries: 
-Run python test_formations.py to generate visual plots of the slot matrices in the results/formation_test_plots directory. This allows you to mathematically verify the shape configurations before spending time running the physics simulation.
+Run `python test_formations.py` to generate visual plots of the slot matrices in the `results/formation_test_plots` directory. This allows you to mathematically verify the shape configurations before spending time running the physics simulation.
 
 To train a policy: 
-Run python train_MADDPG.py. The script will automatically detect your hardware (CUDA/CPU), train the decoupled networks over the specified epochs, and export the .pth weight files and learning curves to the results/ directory.
+Run python `train_MADDPG.py`. The script will automatically detect your hardware (CUDA/CPU), train the decoupled networks over the specified epochs, and export the `.pth` weight files and learning curves to the `results/` directory.
 
 To evaluate the swarm: 
-Run python evaluate_MADDPG.py. The script will initialize the deterministic Actor networks and open a live Matplotlib render window. It automatically captures screenshots at the start, middle, and end of the evaluation and stitches them into a final [Formation]_progress_showcase.png output.
+Run `python evaluate_MADDPG.py`. The script will initialize the deterministic Actor networks and open a live Matplotlib render window. It automatically captures screenshots at the start, middle, and end of the evaluation and stitches them into a final `[Formation]_progress_showcase.png` output.
